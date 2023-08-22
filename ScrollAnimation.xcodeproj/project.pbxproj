@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D305D2FF2A93B89000533903 /* ScrollListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D305D2FE2A93B89000533903 /* ScrollListView.swift */; };
 		D3AE99B42A911E1A004051DA /* ScrollAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE99B32A911E1A004051DA /* ScrollAnimationApp.swift */; };
 		D3AE99B62A911E1A004051DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE99B52A911E1A004051DA /* ContentView.swift */; };
 		D3AE99B82A911E1B004051DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AE99B72A911E1B004051DA /* Assets.xcassets */; };
 		D3AE99BB2A911E1B004051DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AE99BA2A911E1B004051DA /* Preview Assets.xcassets */; };
+		D3AE99C42A911E7E004051DA /* ScrollListView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE99C32A911E7E004051DA /* ScrollListView1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D305D2FE2A93B89000533903 /* ScrollListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollListView.swift; sourceTree = "<group>"; };
 		D3AE99B02A911E1A004051DA /* ScrollAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AE99B32A911E1A004051DA /* ScrollAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollAnimationApp.swift; sourceTree = "<group>"; };
 		D3AE99B52A911E1A004051DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3AE99B72A911E1B004051DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3AE99BA2A911E1B004051DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3AE99C32A911E7E004051DA /* ScrollListView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollListView1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				D3AE99B32A911E1A004051DA /* ScrollAnimationApp.swift */,
 				D3AE99B52A911E1A004051DA /* ContentView.swift */,
+				D305D2FE2A93B89000533903 /* ScrollListView.swift */,
+				D3AE99C32A911E7E004051DA /* ScrollListView1.swift */,
 				D3AE99B72A911E1B004051DA /* Assets.xcassets */,
 				D3AE99B92A911E1B004051DA /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3AE99B62A911E1A004051DA /* ContentView.swift in Sources */,
+				D305D2FF2A93B89000533903 /* ScrollListView.swift in Sources */,
 				D3AE99B42A911E1A004051DA /* ScrollAnimationApp.swift in Sources */,
+				D3AE99C42A911E7E004051DA /* ScrollListView1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

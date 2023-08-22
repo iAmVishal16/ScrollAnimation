@@ -9,13 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if #available(iOS 17.0, *) {
+            ScrollListView1()
+        } else {
+            // Fallback on earlier versions
         }
-        .padding()
     }
 }
 
