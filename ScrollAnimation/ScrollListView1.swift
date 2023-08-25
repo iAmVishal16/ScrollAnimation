@@ -48,6 +48,9 @@ struct ScrollListView1: View {
                                         effect
                                             .scaleEffect(max(1.0 - -min(0, proxy.frame(in: .global).minY) / 100, 0.9))
                                             .offset(y: -min(0, proxy.frame(in: .global).minY))
+//                                            .brightness(max(1.0 - ((main.bounds.height - proxy.frame(in: .global).minY) / main.bounds.height) * 0.5, 0.5))
+
+                                        
                                     }
                                     .padding(.horizontal)
                             }
